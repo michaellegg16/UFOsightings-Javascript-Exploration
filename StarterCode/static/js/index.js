@@ -1,11 +1,14 @@
 // Store the data from data.js in a variable
 var tableData = data;
 
+
 // Get a reference to the table body
 var tbody = d3.select("tbody");
 
+
 // Console.log the data
 console.log(tableData);
+
 
 // Loop through the data for each UFOsighting
 tableData.forEach((UFOsighting) => {
@@ -22,8 +25,11 @@ tableData.forEach((UFOsighting) => {
     });
 });
 
+
+
 // Select the filter-btn element
 var button = d3.select("#filter-btn");
+
 
 // Use D3 `.on` to attach a click handler for the upvote
 button.on("click", function() {
