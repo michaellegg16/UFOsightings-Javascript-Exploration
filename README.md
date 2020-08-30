@@ -1,4 +1,4 @@
-# **UFOsightings-Javascript-Filtering** EXPLORATION??
+# **UFOsightings-Javascript-Exploration
 
 ### Task 
 
